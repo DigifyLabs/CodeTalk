@@ -13,3 +13,7 @@
 Route::get('/', function () {
     return "Hello World";
 });
+
+Route::get('/testing', function(){
+   return "testing";
+});
